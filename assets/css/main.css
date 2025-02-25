@@ -250,6 +250,8 @@ h6 {
   font-weight: 700;
   color: var(--accent-color);
 }
+  .header .language-switch {
+  }
 
 .header .btn-getstarted,
 .header .btn-getstarted:focus {
@@ -273,11 +275,11 @@ h6 {
     order: 1;
   }
 .header .logo h1 {
-  font-size: 12px;
+  font-size: 14px;
 }
 
 .header .logo span {
-  font-size: 12px;
+  font-size: 14px;
 }
 
   .header .btn-getstarted,
@@ -287,8 +289,12 @@ h6 {
     padding: 6px 15px;
   }
 
-  .header .navmenu {
+  .header .language-switch {
+	font-size: 12px;
     order: 3;
+  }
+  .header .navmenu {
+    order: 4;
   }
 }
 
